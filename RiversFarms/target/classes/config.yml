@@ -1,0 +1,27 @@
+cooldowns:
+  harvest_seconds: 1
+  watering_per_crop_hours: 1
+
+harvest:
+  radius: 2
+  sound_volume: 0.5
+  sweep_particle: true
+  fortune_extra: true
+
+moisture:
+  lock_at_seven: true
+  dry_half_rate: true
+  rain_double_growth: true
+
+watering:
+  radius: 0
+  particle_ticks: 5
+
+compost:
+  item_name: "&6Compost"
+  item_lore:
+    - "&7Rich organic matter for crops."
+  particle: "HAPPY_VILLAGER"
+  particle_ticks: 10
+  growth_radius: 1
+  growth_chance: 0.5
